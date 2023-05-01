@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doğukan Onmaz </title>
+    <meta name="keywords" content="Doğukan Onmaz">
+    <meta name="description" content="Doğukan Onmaz">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+    <!-- tablet -->
+    <link rel="stylesheet" media="(max-width:768px)"  href="./css/tablet.css">
+    <link rel="stylesheet" media="(max-width:500px)"  href="./css/mobile.css">
+
+</head>
+<body>
+    <header class="bg-dark-purple">
+
+        <div class="container">
+            
+            <nav id="navbar">
+                <h1 class="heading-big text-center">Doğukan Onmaz</h1>
+                <ul>
+                    <li> <a href="#home">Home Page</a></li>
+                    <li><a href="#training">Education</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+       
+    </header>
+        <section id="home">
+            <img src="./src/image_117548289.JPG" alt="Doğukan Onmaz">
+
+          <div class="name text-center">
+            <h2 class="heading-big ">Doğukan Onmaz</h2>
+            <p>Marmara University | Computer Science Engineering</p>
+          </div>
+          
+          <a href="#courses">Kurslara git</a>
+        </section>
+
+        <section id="training" class="bg-dark-purple">
+
+            <h3 class="text-center heading-medium">Eğitimler </h3>
+
+            <div class="items">
+
+                <article class="item">
+                    <i class="fa-solid fa-pencil"></i>
+                    <h3>Sınıf İçi Eğitimler</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, nulla.</p>
+                </article>
+
+
+                <article class="item">
+                    <i class="fa-solid fa-pencil"></i>
+                    <h3>Sınıf İçi Eğitimler</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, nulla.</p>
+                </article>
+
+
+                <article class="item">
+                    <i class="fa-solid fa-pencil"></i>
+                    <h3>Sınıf İçi Eğitimler</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, nulla.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="courses">
+            <h3 class="text-center heading-medium">Courses</h3>
+                <div class="container">
+                    <div class="courses">
+
+                        <!-- Course 1 -->
+
+                        <div class="course">
+                            <div class="course-image">
+                                <img src="./src/logo-c-1.png" width="240px" alt="C Programming Language">
+                                <span>%60 Level</span>
+                            </div>
+                            <div class="course-info">
+                                <div class="title">C Programming Language</div>
+                                <div class="description">C programlama dilinin temel kavramları, işaretçiler, yapılar ve
+                                    veri yapılarına giriş konularına yer verilmektedir.
+                                    </div>
+                                <div class="instructor">Instructor : Mustafa Ağaoğlu</div>
+                            </div>
+                        </div>
+
+                        <!-- Course 2 -->
+                        <div class="course">
+                            <div class="course-image">
+                                <img src="./src/indir.png" width="240px" alt="Java Programming Language">
+                                <span>%60 Level</span>
+                            </div>
+                            <div class="course-info">
+                                <div class="title">Java Programming Language</div>
+                                <div class="description">Orta seviyedeki nesne-tabanlı
+                                    kavramlardan arayüzler, soyut sınıflar, JAVA GUI (JAVAFX), istisna yönetimi ve metin I/O, olaya dayalı programlama
+                                    konuları anlatılmaktadır.</div>
+                                <div class="instructor"> Instructor : Mustafa Ağaoğlu</div>
+                            </div>
+                        </div>
+
+                        <!-- Course 3 -->
+                        <div class="course">
+                            <div class="course-image">
+                                <img src="./src/web-tasariminin-temelleri-html-ve-css_1.jpg" width="240px" alt="Html and CSS ">
+                                <span>%60Level</span>
+                            </div>
+                            <div class="course-info">
+                                <div class="title">HTML & CSS</div>
+                                <div class="description">Kursta farklı frontend teknolojilerinde bolca kullanacağımız HTML5, CSS3... detaylıca ve modern tekniklerle öğreneceksiniz</div>
+                                <div class="instructor"> Instructor : Mustafa Murat Çoşkun</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+      <footer id="contact" class="bg-dark-purple">
+        <form>
+            <div class="contact-form">
+            <h4 class="text-center heading-medium">Contact Me</h4>
+
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input 
+                type="text" name="name"  class="form-control"
+                id="name"  placeholder="Name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input 
+                type="text" name="email"  class="form-control"
+                id="email"  placeholder="E-Mail">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+               <textarea name="message" id="message"  rows="5"  placeholder="Your message" class="form-control"></textarea>
+            </div>
+
+            <button type="submit" >Submit</button>
+        </form>
+  
+
+        <ul>
+
+            <li> <a href="#"> <i class="fab fa-instagram"> </i>  </a></li>
+            <li> <a href="#"> <i class="fab fa-github"> </i>  </a></li>
+        </ul>
+
+
+    </div>
+
+
+
+      </footer>
+
+
+</body>
+</html>
